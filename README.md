@@ -13,7 +13,7 @@ This repository implements django authentication with Auth0 single login and Typ
 - Clone the repository:
 
 ``` bash
-$git clone https://github.com/auth0-blog/ga-django-python.git
+$git clone https://github.com/FREDERICO23/django-auth
 ```
 
 - Install all the packages using:
