@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h2>MY BLOG</h2>
+    {% for i in posts %}
+    <h1>{{ i.post_title}}</h1>
+    <h6>
+      {{i.post_author}}
+    </h6>
+    <p>{{ i.post_description }}</p>
+    <code>
+      {{ i.post_description_markdown }}
+    </code>
+    <p>{{ i.created}}</p>
+    <p>{{ i.updated}}</p>
+    {% endfor %}
+  </body>
+</html>
